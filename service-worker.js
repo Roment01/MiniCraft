@@ -1,5 +1,6 @@
 const CACHE_NAME = 'minicraft-cache-v1';
 const urlsToCache = [
+  './',
   './version.json',
   './index.html',
   './manifest.json',
