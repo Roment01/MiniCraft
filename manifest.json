@@ -1,6 +1,6 @@
 {
-  "name": "MiniCraft",
-  "short_name": "MiniCraft",
+  "name": "ModernCraft — 2d-игра",
+  "short_name": "ModernCraft",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#87CEEB",
