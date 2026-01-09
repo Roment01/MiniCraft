@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <!-- ОДИН корректный viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>MiniCraft</title>
+  <title>ModernCraft</title>
   <link rel="manifest" href="manifest.json">
   <!-- Цвет темы для PWA -->
   <meta name="theme-color" content="#87CEEB">
@@ -65,13 +65,13 @@
 <body>
   <!-- Загрузочный экран -->
   <div id="loading">
-    <h2>MiniCraft</h2>
-    <p id="versionText">Загрузка...</p>
+    <h1>ModernCraft</h1>
+    <p id="versionText">Loading.../Загрузка...</p>
   </div>
 
   <!-- Меню с версией -->
   <div id="menu">
-    <div id="versionUI">Версия: --</div>
+    <div id="versionUI">Версия игры: --</div>
     <div id="changelog">Что нового: --</div>
   </div>
 
@@ -108,7 +108,7 @@
       document.getElementById('versionText').textContent = 
         `Версия ${versionData.version} | Build ${versionData.build}`;
       document.getElementById('versionUI').textContent = 
-        `Версия: ${versionData.version}`;
+        `Версия игры: ${versionData.version}`;
       document.getElementById('changelog').textContent = 
         `Что нового: ${changelogData.items[0].text}`;
     });
